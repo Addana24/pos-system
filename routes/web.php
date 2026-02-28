@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect('/admin');
+    return redirect('/pos');
 });
 
 Route::prefix('pos')->group(function () {
