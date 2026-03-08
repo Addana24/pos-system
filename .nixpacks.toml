@@ -1,2 +1,5 @@
 [phases.setup]
-nixPkgs = ["php84", "php84Packages.composer"]
+nixPkgs = ["php84", "php84Packages.composer", "php84Extensions.intl", "icu"]
+
+[variables]
+NIXPACKS_PHP_EXTENSIONS = "intl, pdo_mysql, zip, bcmath"
